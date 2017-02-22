@@ -27,6 +27,8 @@
 		B961F7CF1E5CB2CC00423CC4 /* MYZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B961F7CE1E5CB2CC00423CC4 /* MYZoomScrollView.m */; };
 		B9D3C8ED1E5DC1A2009CC82E /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C8EC1E5DC1A2009CC82E /* NormalViewController.m */; };
 		B9D3C8F01E5DC1B5009CC82E /* TextDescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C8EF1E5DC1B5009CC82E /* TextDescViewController.m */; };
+		B9D3C8F51E5DD8ED009CC82E /* GIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = B9D3C8F31E5DD8ED009CC82E /* GIF.gif */; };
+		B9D3C8F61E5DD8ED009CC82E /* GIF1.gif in Resources */ = {isa = PBXBuildFile; fileRef = B9D3C8F41E5DD8ED009CC82E /* GIF1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		B9D3C8EC1E5DC1A2009CC82E /* NormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
 		B9D3C8EE1E5DC1B5009CC82E /* TextDescViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextDescViewController.h; sourceTree = "<group>"; };
 		B9D3C8EF1E5DC1B5009CC82E /* TextDescViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextDescViewController.m; sourceTree = "<group>"; };
+		B9D3C8F31E5DD8ED009CC82E /* GIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GIF.gif; sourceTree = "<group>"; };
+		B9D3C8F41E5DD8ED009CC82E /* GIF1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GIF1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 		B931366A1E5941EF0038063B /* MYPhotoBrowser_Example */ = {
 			isa = PBXGroup;
 			children = (
+				B9D3C8F21E5DD8ED009CC82E /* descImg */,
 				B93136A21E59433D0038063B /* MYPhotoBrowser */,
 				B931366E1E5941EF0038063B /* AppDelegate.h */,
 				B931366F1E5941EF0038063B /* AppDelegate.m */,
@@ -214,6 +219,15 @@
 				B93136BE1E5962150038063B /* MYAnimationHelper.m */,
 			);
 			path = MYPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		B9D3C8F21E5DD8ED009CC82E /* descImg */ = {
+			isa = PBXGroup;
+			children = (
+				B9D3C8F31E5DD8ED009CC82E /* GIF.gif */,
+				B9D3C8F41E5DD8ED009CC82E /* GIF1.gif */,
+			);
+			path = descImg;
 			sourceTree = "<group>";
 		};
 		BB0A1A354D6B05F41879569E /* Frameworks */ = {
@@ -345,7 +359,9 @@
 				B93136BC1E594CA50038063B /* timg.jpg in Resources */,
 				B931367B1E5941EF0038063B /* LaunchScreen.storyboard in Resources */,
 				B93136781E5941EF0038063B /* Assets.xcassets in Resources */,
+				B9D3C8F51E5DD8ED009CC82E /* GIF.gif in Resources */,
 				B93136761E5941EF0038063B /* Main.storyboard in Resources */,
+				B9D3C8F61E5DD8ED009CC82E /* GIF1.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
