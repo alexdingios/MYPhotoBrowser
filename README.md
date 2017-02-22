@@ -16,4 +16,4 @@
 ## 2. 带有文本描述使用
 <b> 当只有一张图时 ， 默认指示器是不显示的 ， 指示器默认为小圆点 ， 你也可以设置成数字，比如 1/9 这样的格式 ， 文本描述只要你赋值了就会显示,详情请见demo
 <p>
-![image](https://github.com/coderMyy/MYPhotoBrowser_Example/blob/master/descImg/GIF1.gif)
+![image](https://github.com/coderMyy/MYPhotoBrowser/blob/master/descImg/GIF1.gif)
