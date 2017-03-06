@@ -180,13 +180,13 @@
 #pragma mark - 长按
 - (void)longpressHandle
 {
-    [MYBottomMenuTool show:^(MYHandleType handleType) {
+    [MYBottomMenuTool show:^(NSString *handleType) {
         
         if (self.callback) {
             
             self.callback(self.imageView.image,handleType);
         }
-    }];
+    } handleNames:self.handleNames];
 }
 
 

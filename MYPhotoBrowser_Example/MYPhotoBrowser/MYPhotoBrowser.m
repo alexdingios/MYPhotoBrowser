@@ -106,7 +106,7 @@
 
 
 #pragma  mark - 照片浏览初始化
-- (instancetype)initWithUrls:(NSArray<NSString *> *)urlString imgViews:(NSArray *)imageViews placeholder:(NSString *)imageName currentIdx:(NSInteger)currentIdx callback:(longpressCallback)callback
+- (instancetype)initWithUrls:(NSArray<NSString *> *)urlString imgViews:(NSArray *)imageViews placeholder:(NSString *)imageName currentIdx:(NSInteger)currentIdx handleNames:(NSArray *)names callback:(longpressCallback)callback
 {
     
     if (!urlString.count) return nil;
@@ -120,19 +120,20 @@
         
         self.backgroundColor        = [UIColor colorWithWhite:0 alpha:1];
         [self addSubview:self.rollScrollView];
-        [self addphotosScrollView];
+        [self addphotosScrollView:names];
     }
     return self;
 }
 
 
 //初始化子控件
-- (void)addphotosScrollView
+- (void)addphotosScrollView:(NSArray *)handleNames
 {
     
     for (NSInteger index = 0; index < self.imagesUrlString.count; index ++) {
         
         MYZoomScrollView *zooScrollView = [[MYZoomScrollView alloc]initWithFrame:CGRectMake(index *kScreen_with, 0, kScreen_with, kScreen_height)];
+        zooScrollView.handleNames       = handleNames; //长按操作
         [self.rollScrollView addSubview:zooScrollView];
         [self.rollScrollView.zoomViews addObject:zooScrollView];
         //计算imageView大小
@@ -264,8 +265,9 @@
     
     if (!_imageViews.count) {
         [self loadImage:0 ];
+        return;
     }
-    UIImageView *currentImageView     = _imageViews[_currentIndex];
+    UIImageView *currentImageView     = _imageViews[index];
     zooScrollView.imageView.image     = currentImageView.image;
 }
 

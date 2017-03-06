@@ -10,5 +10,7 @@
 #import "MYImageInfo.h"
 
 @interface MYBottomMenuTool : NSObject
-+ (void)show:(handleBlock)callback;
+
++ (void)show:(handleBlock)callback handleNames:(NSArray *)handleNames;
+
 @end

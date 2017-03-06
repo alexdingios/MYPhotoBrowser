@@ -24,7 +24,7 @@
  @param imageViews imageViews数组
  @return <#return value description#>
  */
-- (instancetype)initWithUrls:(NSArray<NSString *> *)urlString imgViews:(NSArray *)imageViews placeholder:(NSString *)imageName currentIdx:(NSInteger)currentIdx callback:(longpressCallback)callback;
+- (instancetype)initWithUrls:(NSArray<NSString *> *)urlString imgViews:(NSArray *)imageViews placeholder:(NSString *)imageName currentIdx:(NSInteger)currentIdx handleNames:(NSArray *)names callback:(longpressCallback)callback;
 
 
 /**

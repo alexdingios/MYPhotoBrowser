@@ -10,6 +10,7 @@
 		7A55D6D5389640AA3DC3B0B0 /* libPods-MYPhotoBrowser_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA6E0AD50192659D7123AA4 /* libPods-MYPhotoBrowser_Example.a */; };
 		B81C30D31E5C7FF70069F92A /* MYBottomMenuTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B81C30D21E5C7FF70069F92A /* MYBottomMenuTool.m */; };
 		B87E085F1E5B1C11009F44CA /* UIImage+blankImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B87E085D1E5B1C11009F44CA /* UIImage+blankImage.m */; };
+		B8D7DC741E6D1D4800072C30 /* MYBottomMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D7DC731E6D1D4800072C30 /* MYBottomMenuCell.m */; };
 		B931366D1E5941EF0038063B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B931366C1E5941EF0038063B /* main.m */; };
 		B93136701E5941EF0038063B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B931366F1E5941EF0038063B /* AppDelegate.m */; };
 		B93136731E5941EF0038063B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93136721E5941EF0038063B /* ViewController.m */; };
@@ -19,7 +20,6 @@
 		B93136861E5941EF0038063B /* MYPhotoBrowser_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B93136851E5941EF0038063B /* MYPhotoBrowser_ExampleTests.m */; };
 		B93136911E5941EF0038063B /* MYPhotoBrowser_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B93136901E5941EF0038063B /* MYPhotoBrowser_ExampleUITests.m */; };
 		B93136B91E59433D0038063B /* UIImage+imageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = B93136B01E59433D0038063B /* UIImage+imageSize.m */; };
-		B93136BC1E594CA50038063B /* timg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B93136BB1E594CA50038063B /* timg.jpg */; };
 		B93136BF1E5962150038063B /* MYAnimationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B93136BE1E5962150038063B /* MYAnimationHelper.m */; };
 		B961F7C61E5CAF0A00423CC4 /* MYImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B961F7C51E5CAF0A00423CC4 /* MYImageInfo.m */; };
 		B961F7C91E5CAFD900423CC4 /* MYPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B961F7C81E5CAFD900423CC4 /* MYPhotoBrowser.m */; };
@@ -54,6 +54,8 @@
 		B81C30D21E5C7FF70069F92A /* MYBottomMenuTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYBottomMenuTool.m; sourceTree = "<group>"; };
 		B87E085C1E5B1C11009F44CA /* UIImage+blankImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+blankImage.h"; sourceTree = "<group>"; };
 		B87E085D1E5B1C11009F44CA /* UIImage+blankImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+blankImage.m"; sourceTree = "<group>"; };
+		B8D7DC721E6D1D4800072C30 /* MYBottomMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYBottomMenuCell.h; sourceTree = "<group>"; };
+		B8D7DC731E6D1D4800072C30 /* MYBottomMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYBottomMenuCell.m; sourceTree = "<group>"; };
 		B93136681E5941EF0038063B /* MYPhotoBrowser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYPhotoBrowser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B931366C1E5941EF0038063B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B931366E1E5941EF0038063B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,7 +74,6 @@
 		B93136921E5941EF0038063B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B93136AF1E59433D0038063B /* UIImage+imageSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+imageSize.h"; sourceTree = "<group>"; };
 		B93136B01E59433D0038063B /* UIImage+imageSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+imageSize.m"; sourceTree = "<group>"; };
-		B93136BB1E594CA50038063B /* timg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpg; sourceTree = "<group>"; };
 		B93136BD1E5962150038063B /* MYAnimationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAnimationHelper.h; sourceTree = "<group>"; };
 		B93136BE1E5962150038063B /* MYAnimationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAnimationHelper.m; sourceTree = "<group>"; };
 		B961F7C41E5CAF0A00423CC4 /* MYImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYImageInfo.h; sourceTree = "<group>"; };
@@ -122,6 +123,8 @@
 				B87E085D1E5B1C11009F44CA /* UIImage+blankImage.m */,
 				B81C30D11E5C7FF70069F92A /* MYBottomMenuTool.h */,
 				B81C30D21E5C7FF70069F92A /* MYBottomMenuTool.m */,
+				B8D7DC721E6D1D4800072C30 /* MYBottomMenuCell.h */,
+				B8D7DC731E6D1D4800072C30 /* MYBottomMenuCell.m */,
 			);
 			path = MYBottomMenu;
 			sourceTree = "<group>";
@@ -172,7 +175,6 @@
 		B931366B1E5941EF0038063B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B93136BB1E594CA50038063B /* timg.jpg */,
 				B931366C1E5941EF0038063B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -342,7 +344,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B93136BC1E594CA50038063B /* timg.jpg in Resources */,
 				B931367B1E5941EF0038063B /* LaunchScreen.storyboard in Resources */,
 				B93136781E5941EF0038063B /* Assets.xcassets in Resources */,
 				B93136761E5941EF0038063B /* Main.storyboard in Resources */,
@@ -429,6 +430,7 @@
 				B931366D1E5941EF0038063B /* main.m in Sources */,
 				B87E085F1E5B1C11009F44CA /* UIImage+blankImage.m in Sources */,
 				B961F7CC1E5CB23300423CC4 /* MYRollScrollView.m in Sources */,
+				B8D7DC741E6D1D4800072C30 /* MYBottomMenuCell.m in Sources */,
 				B961F7CF1E5CB2CC00423CC4 /* MYZoomScrollView.m in Sources */,
 				B961F7C91E5CAFD900423CC4 /* MYPhotoBrowser.m in Sources */,
 			);

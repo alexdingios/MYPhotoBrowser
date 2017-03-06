@@ -23,20 +23,13 @@
 
 typedef NS_ENUM(NSInteger) {
     
-    MYHandleTypeSave   = 1<<0,
-    MYHandleTypeSend   = 1<<1,
-    MYHandleTypeCancel = 1<<2,
-}MYHandleType;
-
-typedef NS_ENUM(NSInteger) {
-    
     MYPageIndicatorStylePageControl  = 1<<0,
     MYPageIndicatorStyleText         = 1<<1
     
 }MYPageIndicatorStyle;
 
-typedef void(^handleBlock)(MYHandleType handleType);
-typedef void(^longpressCallback)(UIImage *handleImage,MYHandleType handleType);
+typedef void(^handleBlock)(NSString *handleType);
+typedef void(^longpressCallback)(UIImage *handleImage,NSString *handleType);
 
 @interface MYImageInfo : NSObject
 

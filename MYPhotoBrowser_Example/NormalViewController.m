@@ -65,7 +65,7 @@
     
     UIImageView *currentImageView = (UIImageView *)tap.view;
     NSInteger index = [self.imageViews indexOfObject:currentImageView];
-    MYPhotoBrowser *photoBrowser = [[MYPhotoBrowser alloc]initWithUrls:self.urls imgViews:self.imageViews placeholder:nil currentIdx:index callback:^(UIImage *handleImage,MYHandleType handleType) {
+    MYPhotoBrowser *photoBrowser = [[MYPhotoBrowser alloc]initWithUrls:self.urls imgViews:self.imageViews placeholder:nil currentIdx:index handleNames:@[@"1",@"2",@"3",@"4"] callback:^(UIImage *handleImage,NSString *handleType) {
         
         NSLog(@"-------------图片对象-%@----操作类型-%ld",handleImage,(long)handleType);
         

@@ -17,4 +17,6 @@
 @property (nonatomic, strong) UIImageView *currentImgView;
 @property (nonatomic, strong) UIImageView *imageView;
 @property (nonatomic, assign,getter=isNeedAnimation) BOOL animation;
+@property (nonatomic, strong) NSArray *handleNames;
+
 @end
