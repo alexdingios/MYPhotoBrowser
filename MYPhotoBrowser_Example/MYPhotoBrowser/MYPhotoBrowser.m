@@ -250,11 +250,11 @@
 {
     NSURL *url = [NSURL URLWithString:self.imagesUrlString[index]];
     CGSize imageActualSize           = [UIImage getImageSizeWithURL:url];
-    CGFloat width                    = imageActualSize.width;
-    CGFloat height                   = imageActualSize.height;
-    if (width || height) {
+    if (!imageActualSize.width || !imageActualSize.height) {
         imageActualSize              = [UIScreen mainScreen].bounds.size;
     }
+    CGFloat width                    = imageActualSize.width;
+    CGFloat height                   = imageActualSize.height;
     if (width >= height) {
         
         CGFloat showHeight   = kScreen_with/width * height;
